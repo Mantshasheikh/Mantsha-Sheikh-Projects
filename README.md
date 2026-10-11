@@ -5,7 +5,7 @@ Documenting my journey to becoming a Data Analyst through hands-on projects and 
 ## Projects
 
 - 📄 [McDonald's Sales Analysis (Excel)](PASTE-LINK-1)
-- 📄 [ITC Hotels Revenue Optimization](PASTE-LINK-2)
+- 📄 [ITC Hotels Revenue Optimization](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/blob/main/ITC%20Hotels%20Revenue%20Optimization.pdf)
 - 📄 [Jenson USA SQL Analysis](PASTE-LINK-3)
 
 ## Tools
