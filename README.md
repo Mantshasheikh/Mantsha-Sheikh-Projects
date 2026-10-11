@@ -4,9 +4,9 @@ Documenting my journey to becoming a Data Analyst through hands-on projects and 
 
 ## Projects
 
-- 📄 [McDonald's Sales Analysis (Excel)](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/blob/main/MCdonALD'S%20project%20using%20excel_compressed.pdf)
-- 📄 [ITC Hotels Revenue Optimization](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/blob/main/ITC%20Hotels%20Revenue%20Optimization.pdf)
-- 📄 [Jenson USA SQL Analysis](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/blob/main/jenson-usa-sql.pdf)
+- 📄 [McDonald's Sales Analysis (Excel)](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/raw/main/MCdonALD'S%20project%20using%20excel_compressed.pdf)
+- 📄 [ITC Hotels Revenue Optimization](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/raw/main/ITC%20Hotels%20Revenue%20Optimization.pdf)
+- 📄 [Jenson USA SQL Analysis](https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects/raw/main/jenson-usa-sql.pdf)
 
 ## Tools
 
