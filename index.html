@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Mantsha Sheikh | Data Analytics Portfolio</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #0b1120;
+    color: #e5e7eb;
+    line-height: 1.7;
+}
+
+header {
+    padding: 22px 7%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #273449;
+}
+
+.logo {
+    font-size: 19px;
+    font-weight: bold;
+    color: #60a5fa;
+}
+
+nav a {
+    color: #d1d5db;
+    text-decoration: none;
+    margin-left: 18px;
+}
+
+.hero {
+    padding: 85px 8% 70px;
+    background: linear-gradient(135deg, #0b1120, #172b46);
+}
+
+.label {
+    color: #60a5fa;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+h1 {
+    font-size: clamp(36px, 7vw, 65px);
+    line-height: 1.2;
+    margin: 20px 0;
+}
+
+h1 span {
+    color: #60a5fa;
+}
+
+.hero p {
+    max-width: 650px;
+    color: #b8c4d6;
+    margin-bottom: 28px;
+}
+
+.button {
+    display: inline-block;
+    background: #2563eb;
+    color: white;
+    padding: 11px 19px;
+    border-radius: 7px;
+    text-decoration: none;
+    margin: 5px 5px 5px 0;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.button:hover {
+    background: #1d4ed8;
+}
+
+.button-outline {
+    background: transparent;
+    border: 1px solid #64748b;
+}
+
+section {
+    padding: 55px 8%;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.section-description {
+    color: #9caac0;
+    margin-bottom: 30px;
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 22px;
+}
+
+.project-card {
+    background: #131e31;
+    border: 1px solid #2b3b52;
+    border-radius: 14px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: transform 0.2s, border-color 0.2s;
+}
+
+.project-card:hover {
+    transform: translateY(-4px);
+    border-color: #60a5fa;
+}
+
+.project-number {
+    color: #60a5fa;
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.project-card h3 {
+    font-size: 21px;
+    margin: 12px 0;
+}
+
+.project-card p {
+    color: #b2bfd1;
+    margin-bottom: 18px;
+}
+
+.tag {
+    display: inline-block;
+    background: #1e3452;
+    color: #93c5fd;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 12px;
+    margin: 0 5px 8px 0;
+}
+
+.project-links {
+    margin-top: auto;
+    padding-top: 12px;
+}
+
+.about-box {
+    background: #131e31;
+    border: 1px solid #2b3b52;
+    border-radius: 12px;
+    padding: 25px;
+    color: #b8c4d6;
+}
+
+footer {
+    padding: 30px 8%;
+    text-align: center;
+    border-top: 1px solid #273449;
+    color: #9caac0;
+}
+
+footer a {
+    color: #60a5fa;
+    text-decoration: none;
+}
+
+@media (max-width: 480px) {
+    header {
+        padding: 18px 5%;
+    }
+
+    .logo {
+        font-size: 15px;
+    }
+
+    nav a {
+        margin-left: 8px;
+        font-size: 12px;
+    }
+
+    .hero {
+        padding: 60px 6%;
+    }
+
+    section {
+        padding: 40px 6%;
+    }
+
+    .project-grid {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">MS. / PORTFOLIO</div>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+    </nav>
+</header>
+
+<!-- HERO SECTION -->
+
+<div class="hero">
+    <div class="label">DATA ANALYTICS PORTFOLIO</div>
+
+    <h1>
+        Turning Data Into<br>
+        <span>Meaningful Insights.</span>
+    </h1>
+
+    <p>
+        Welcome to my portfolio. Here I showcase my practical work
+        in data analysis, business intelligence, and data-driven
+        problem-solving using Excel and SQL.
+    </p>
+
+    <a href="#projects" class="button">
+        Explore My Projects ↓
+    </a>
+</div>
+
+<!-- ABOUT SECTION -->
+
+<section id="about">
+    <h2>About Me</h2>
+
+    <p class="section-description">
+        Data Analytics | Excel | SQL | Business Insights
+    </p>
+
+    <div class="about-box">
+        I am developing my data analytics skills through hands-on
+        projects involving business data, spreadsheet analysis,
+        and SQL. My goal is to transform raw data into meaningful
+        insights that support better business decisions.
+    </div>
+</section>
+
+<!-- PROJECTS SECTION -->
+
+<section id="projects">
+    <h2>Featured Projects</h2>
+
+    <p class="section-description">
+        Explore my projects and practical analytical work.
+    </p>
+
+    <div class="project-grid">
+
+        <!-- PROJECT 1 -->
+
+        <article class="project-card">
+
+            <div class="project-number">PROJECT 01</div>
+
+            <h3>ITC Hotels Revenue Optimization</h3>
+
+            <div>
+                <span class="tag">Data Analysis</span>
+                <span class="tag">Business Insights</span>
+            </div>
+
+            <p>
+                A hotel revenue analysis project focused on exploring
+                business performance and identifying opportunities
+                for revenue optimization.
+            </p>
+
+            <div class="project-links">
+                <a
+                    class="button"
+                    href="./ITC%20Hotels%20Revenue%20Optimization-1.pdf"
+                    target="_blank"
+                    rel="noopener">
+                    View Project ↗
+                </a>
+            </div>
+
+        </article>
+
+        <!-- PROJECT 2 -->
+
+        <article class="project-card">
+
+            <div class="project-number">PROJECT 02</div>
+
+            <h3>McDonald's Analysis Using Excel</h3>
+
+            <div>
+                <span class="tag">Microsoft Excel</span>
+                <span class="tag">Data Analysis</span>
+            </div>
+
+            <p>
+                An Excel-based project demonstrating practical
+                spreadsheet analysis and the exploration of
+                business data.
+            </p>
+
+            <div class="project-links">
+                <a
+                    class="button"
+                    href="./MCdonALD%27S%20project%20using%20excel_compressed.pdf"
+                    target="_blank"
+                    rel="noopener">
+                    View Project ↗
+                </a>
+            </div>
+
+        </article>
+
+        <!-- PROJECT 3 -->
+
+        <article class="project-card">
+
+            <div class="project-number">PROJECT 03</div>
+
+            <h3>Jenson USA SQL Analysis</h3>
+
+            <div>
+                <span class="tag">SQL</span>
+                <span class="tag">Data Analysis</span>
+            </div>
+
+            <p>
+                A SQL project showcasing practical database querying
+                and analytical work using a business dataset.
+            </p>
+
+            <div class="project-links">
+                <a
+                    class="button"
+                    href="./jenson-usa-sql.pdf"
+                    target="_blank"
+                    rel="noopener">
+                    View Project ↗
+                </a>
+            </div>
+
+        </article>
+
+    </div>
+</section>
+
+<!-- FOOTER -->
+
+<footer>
+    <p>
+        Mantsha Sheikh | Data Analytics Portfolio
+    </p>
+
+    <p>
+        Built with HTML & CSS · Hosted on GitHub Pages
+    </p>
+
+    <p>
+        <a href="https://github.com/Mantshasheikh/Mantsha-Sheikh-Projects">
+            View GitHub Repository
+        </a>
+    </p>
+</footer>
+
+</body>
+</html>
